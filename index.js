@@ -3,7 +3,7 @@ const generateMarkdown = require('./utils/generateMarkdown')
 const fs = require('fs')
 
 function writeToFile(data) {
-    fs.writeFile('./otuput/README.md', data, err => {
+    fs.writeFile('./output/README.md', data, err => {
         if (err) {
             console.log(err);
         } else {
