@@ -86,11 +86,6 @@ inquirer.prompt([
     },
     {
         type: 'input',
-        name: 'tests',
-        message: 'Provide any test instructions: ',
-    },
-    {
-        type: 'input',
         name: 'questions',
         message: 'Provide common questions and answers: ',
     }
